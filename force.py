@@ -7,7 +7,7 @@ class Force:
 		self.des_dir = 0
 
 		try:
-			if self.dir <= 90:   ## FOR BOUNCE NOPEEEE DOPEEEE
+			if self.dir <= 90:   
 				self.des_dir = self.dir
 				self.x_comp = mag * math.cos(self.dir)
 				self.y_comp = mag * math.sin(self.dir)
